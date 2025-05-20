@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DCED2B832DDC36DB00B907B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCED2B6D2DDC36DA00B907B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCED2B742DDC36DA00B907B1;
+			remoteInfo = MyP2PBank;
+		};
+		DCED2B8D2DDC36DB00B907B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCED2B6D2DDC36DA00B907B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCED2B742DDC36DA00B907B1;
+			remoteInfo = MyP2PBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCED2B752DDC36DA00B907B1 /* MyP2PBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyP2PBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCED2B822DDC36DB00B907B1 /* MyP2PBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyP2PBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCED2B8C2DDC36DB00B907B1 /* MyP2PBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyP2PBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DCED2BDC2DDC3DE800B907B1 /* Exceptions for "MyP2PBank" folder in "MyP2PBank" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DCED2B742DDC36DA00B907B1 /* MyP2PBank */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DCED2B772DDC36DA00B907B1 /* MyP2PBank */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DCED2BDC2DDC3DE800B907B1 /* Exceptions for "MyP2PBank" folder in "MyP2PBank" target */,
+			);
+			path = MyP2PBank;
+			sourceTree = "<group>";
+		};
+		DCED2B852DDC36DB00B907B1 /* MyP2PBankTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyP2PBankTests;
+			sourceTree = "<group>";
+		};
+		DCED2B8F2DDC36DB00B907B1 /* MyP2PBankUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyP2PBankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCED2B722DDC36DA00B907B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED2B7F2DDC36DB00B907B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED2B892DDC36DB00B907B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCED2B6C2DDC36DA00B907B1 = {
+			isa = PBXGroup;
+			children = (
+				DCED2B772DDC36DA00B907B1 /* MyP2PBank */,
+				DCED2B852DDC36DB00B907B1 /* MyP2PBankTests */,
+				DCED2B8F2DDC36DB00B907B1 /* MyP2PBankUITests */,
+				DCED2B762DDC36DA00B907B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCED2B762DDC36DA00B907B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCED2B752DDC36DA00B907B1 /* MyP2PBank.app */,
+				DCED2B822DDC36DB00B907B1 /* MyP2PBankTests.xctest */,
+				DCED2B8C2DDC36DB00B907B1 /* MyP2PBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCED2B742DDC36DA00B907B1 /* MyP2PBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCED2B962DDC36DB00B907B1 /* Build configuration list for PBXNativeTarget "MyP2PBank" */;
+			buildPhases = (
+				DCED2B712DDC36DA00B907B1 /* Sources */,
+				DCED2B722DDC36DA00B907B1 /* Frameworks */,
+				DCED2B732DDC36DA00B907B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DCED2B772DDC36DA00B907B1 /* MyP2PBank */,
+			);
+			name = MyP2PBank;
+			packageProductDependencies = (
+			);
+			productName = MyP2PBank;
+			productReference = DCED2B752DDC36DA00B907B1 /* MyP2PBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCED2B812DDC36DB00B907B1 /* MyP2PBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCED2B992DDC36DB00B907B1 /* Build configuration list for PBXNativeTarget "MyP2PBankTests" */;
+			buildPhases = (
+				DCED2B7E2DDC36DB00B907B1 /* Sources */,
+				DCED2B7F2DDC36DB00B907B1 /* Frameworks */,
+				DCED2B802DDC36DB00B907B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCED2B842DDC36DB00B907B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCED2B852DDC36DB00B907B1 /* MyP2PBankTests */,
+			);
+			name = MyP2PBankTests;
+			packageProductDependencies = (
+			);
+			productName = MyP2PBankTests;
+			productReference = DCED2B822DDC36DB00B907B1 /* MyP2PBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCED2B8B2DDC36DB00B907B1 /* MyP2PBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCED2B9C2DDC36DB00B907B1 /* Build configuration list for PBXNativeTarget "MyP2PBankUITests" */;
+			buildPhases = (
+				DCED2B882DDC36DB00B907B1 /* Sources */,
+				DCED2B892DDC36DB00B907B1 /* Frameworks */,
+				DCED2B8A2DDC36DB00B907B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCED2B8E2DDC36DB00B907B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCED2B8F2DDC36DB00B907B1 /* MyP2PBankUITests */,
+			);
+			name = MyP2PBankUITests;
+			packageProductDependencies = (
+			);
+			productName = MyP2PBankUITests;
+			productReference = DCED2B8C2DDC36DB00B907B1 /* MyP2PBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCED2B6D2DDC36DA00B907B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					DCED2B742DDC36DA00B907B1 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					DCED2B812DDC36DB00B907B1 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DCED2B742DDC36DA00B907B1;
+					};
+					DCED2B8B2DDC36DB00B907B1 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DCED2B742DDC36DA00B907B1;
+					};
+				};
+			};
+			buildConfigurationList = DCED2B702DDC36DA00B907B1 /* Build configuration list for PBXProject "MyP2PBank" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCED2B6C2DDC36DA00B907B1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DCED2B762DDC36DA00B907B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCED2B742DDC36DA00B907B1 /* MyP2PBank */,
+				DCED2B812DDC36DB00B907B1 /* MyP2PBankTests */,
+				DCED2B8B2DDC36DB00B907B1 /* MyP2PBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCED2B732DDC36DA00B907B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED2B802DDC36DB00B907B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED2B8A2DDC36DB00B907B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCED2B712DDC36DA00B907B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED2B7E2DDC36DB00B907B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED2B882DDC36DB00B907B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCED2B842DDC36DB00B907B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCED2B742DDC36DA00B907B1 /* MyP2PBank */;
+			targetProxy = DCED2B832DDC36DB00B907B1 /* PBXContainerItemProxy */;
+		};
+		DCED2B8E2DDC36DB00B907B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCED2B742DDC36DA00B907B1 /* MyP2PBank */;
+			targetProxy = DCED2B8D2DDC36DB00B907B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCED2B942DDC36DB00B907B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCED2B952DDC36DB00B907B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCED2B972DDC36DB00B907B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyP2PBank/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyeonhwa.MyP2PBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCED2B982DDC36DB00B907B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyP2PBank/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyeonhwa.MyP2PBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCED2B9A2DDC36DB00B907B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyeonhwa.MyP2PBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyP2PBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyP2PBank";
+			};
+			name = Debug;
+		};
+		DCED2B9B2DDC36DB00B907B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyeonhwa.MyP2PBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyP2PBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyP2PBank";
+			};
+			name = Release;
+		};
+		DCED2B9D2DDC36DB00B907B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyeonhwa.MyP2PBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyP2PBank;
+			};
+			name = Debug;
+		};
+		DCED2B9E2DDC36DB00B907B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyeonhwa.MyP2PBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyP2PBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCED2B702DDC36DA00B907B1 /* Build configuration list for PBXProject "MyP2PBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCED2B942DDC36DB00B907B1 /* Debug */,
+				DCED2B952DDC36DB00B907B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCED2B962DDC36DB00B907B1 /* Build configuration list for PBXNativeTarget "MyP2PBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCED2B972DDC36DB00B907B1 /* Debug */,
+				DCED2B982DDC36DB00B907B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCED2B992DDC36DB00B907B1 /* Build configuration list for PBXNativeTarget "MyP2PBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCED2B9A2DDC36DB00B907B1 /* Debug */,
+				DCED2B9B2DDC36DB00B907B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCED2B9C2DDC36DB00B907B1 /* Build configuration list for PBXNativeTarget "MyP2PBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCED2B9D2DDC36DB00B907B1 /* Debug */,
+				DCED2B9E2DDC36DB00B907B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCED2B6D2DDC36DA00B907B1 /* Project object */;
+}
