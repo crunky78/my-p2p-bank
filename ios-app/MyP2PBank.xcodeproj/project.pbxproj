@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DCF28ACD2DDDA5F000777D10 /* config.template.json in Sources */ = {isa = PBXBuildFile; fileRef = DCF28ACC2DDDA5EB00777D10 /* config.template.json */; };
+		DCF28AD02DDDA64E00777D10 /* update_config.sh in Resources */ = {isa = PBXBuildFile; fileRef = DCF28ACF2DDDA64000777D10 /* update_config.sh */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DCED2B832DDC36DB00B907B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		DCED2B752DDC36DA00B907B1 /* MyP2PBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyP2PBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCED2B822DDC36DB00B907B1 /* MyP2PBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyP2PBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCED2B8C2DDC36DB00B907B1 /* MyP2PBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyP2PBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF28ACC2DDDA5EB00777D10 /* config.template.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.template.json; sourceTree = "<group>"; };
+		DCF28ACF2DDDA64000777D10 /* update_config.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = update_config.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,10 +95,12 @@
 		DCED2B6C2DDC36DA00B907B1 = {
 			isa = PBXGroup;
 			children = (
+				DCF28ACF2DDDA64000777D10 /* update_config.sh */,
 				DCED2B772DDC36DA00B907B1 /* MyP2PBank */,
 				DCED2B852DDC36DB00B907B1 /* MyP2PBankTests */,
 				DCED2B8F2DDC36DB00B907B1 /* MyP2PBankUITests */,
 				DCED2B762DDC36DA00B907B1 /* Products */,
+				DCF28ACC2DDDA5EB00777D10 /* config.template.json */,
 			);
 			sourceTree = "<group>";
 		};
@@ -225,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF28AD02DDDA64E00777D10 /* update_config.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF28ACD2DDDA5F000777D10 /* config.template.json in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,13 +1,14 @@
 package com.p2pbank.backend.controller;
 
+import com.p2pbank.backend.domain.BankUser;
 import com.p2pbank.backend.dto.BankUserRequestDto;
+import com.p2pbank.backend.dto.BankUserResponseDto;
 import com.p2pbank.backend.service.BankUserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/bank-users")
@@ -20,4 +21,10 @@ public class BankUserController {
         bankUserService.register(dto);
         return ResponseEntity.ok("회원가입 완료");
     }
+
+    @GetMapping("/users")
+    public List<BankUserResponseDto> getAllUsers(){
+        return bankUserService.getBankUser();
+    }
+
 }
