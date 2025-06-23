@@ -4,54 +4,51 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "loan_request")
+@Table(name = "loan")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class LoanRequest {
+public class Loan {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    // 요청자 (돈을 빌리려는 사람)
+    // 대출자
     @ManyToOne
     @JoinColumn(name = "borrower_id", nullable = false)
     private BankUser borrower;
 
-    // 상대방 (돈을 빌려주는 대상)
+    // 대여자
     @ManyToOne
     @JoinColumn(name = "lender_id", nullable = false)
     private BankUser lender;
 
-    // 대출 금액
+    // 금액
     @Column(nullable = false)
     private Long amount;
 
-    // 이자율 (예: 4.5%)
+    // 이자율 (예: 5.5%)
     @Column(nullable = false)
     private Double interestRate;
 
+    // 대출 시작일
     @Column(nullable = false)
     private LocalDate startedAt;
 
+    // 상환 예정일
     @Column(nullable = false)
     private LocalDate dueAt;
 
-    // 요청 상태 (요청됨, 수락됨, 거절됨 등)
+    // 진행 상태
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private LoanRequestStatus status;
+    private LoanStatus status;
 
-    // 요청 메모
+    // 메모 (선택)
     private String note;
-
-    // 요청 시간
-    @Column(nullable = false)
-    private LocalDateTime createdAt;
 }

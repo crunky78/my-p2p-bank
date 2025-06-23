@@ -1,9 +1,13 @@
 import Foundation
 
 class ConfigManager {
-    static let shared = ConfigManager()
+    static let shared: ConfigManager = {
+            let instance = ConfigManager()
+            instance.loadConfig() 
+            return instance
+        }()
 
-    private(set) var config: AppConfig?
+        var config: AppConfig?
 
     private init() {
         loadConfig()

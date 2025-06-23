@@ -4,6 +4,7 @@ struct HomeView: View {
     @EnvironmentObject var sessionManager: SessionManager
     
     @State private var goToLoanRequest = false  // 대출 요청화면 이동 트리거 변수
+    @State private var goToLoanList = false
     
     var body: some View {
         NavigationStack {
@@ -41,11 +42,16 @@ struct HomeView: View {
                 ActionButton(title: "📥 대출 요청", color: .blue){goToLoanRequest = true}
                 ActionButton(title: "💸 상환하기", color: .green){}
                 ActionButton(title: "🕒 연장 요청", color: .orange){}
-                ActionButton(title: "📑 대출 내역", color: .purple){}
+                ActionButton(title: "📑 대출 내역", color: .purple){goToLoanList=true}
             }
             
             // ✅ NavigationLink는 hidden + 상태에 따라 이동
             NavigationLink(destination: LoanRequestView(), isActive:$goToLoanRequest ){
+                EmptyView()
+            }
+            
+            NavigationLink(destination: LoanRequestListView(),
+                           isActive: $goToLoanList){
                 EmptyView()
             }
             

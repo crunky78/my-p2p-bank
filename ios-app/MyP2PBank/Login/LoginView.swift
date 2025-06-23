@@ -4,7 +4,7 @@ import Foundation
 struct LoginView: View {
     @EnvironmentObject var sessionManager: SessionManager
     
-    @State private var userId: String = ""
+    @State private var userId: String = "hyunhwa"//임시로 hyunhwa 세팅
     @State private var password: String = ""
     @State private var loginMessage: String?
     @State private var alertShown = false
@@ -73,7 +73,8 @@ struct LoginView: View {
 
     func login() {
         guard let url = URL(string: "\(ConfigManager.shared.config?.baseURL ?? "")/auth/login") else { return }
-
+        //guard let url = URL(string: "http://192.168.1.70:8080/auth/login") else { return }
+        
         let loginData = [
             "id": userId,
             "passwd": password
