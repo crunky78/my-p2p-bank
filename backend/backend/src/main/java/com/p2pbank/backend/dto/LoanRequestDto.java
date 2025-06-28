@@ -15,6 +15,7 @@ public class LoanRequestDto {
     private String borrowerId;
     private String lenderId;
     private Long amount;
+    private LoanRequestStatus status;
     private Double interestRate;
     private LocalDate startedAt;
     private LocalDate dueAt;

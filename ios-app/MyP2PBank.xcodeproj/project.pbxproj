@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC951AE62E0C2783008254B9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC951AE52E0C2783008254B9 /* Launch Screen.storyboard */; };
 		DCAEE9842E0976450036FA9F /* config.template.json in Resources */ = {isa = PBXBuildFile; fileRef = DCF28ACC2DDDA5EB00777D10 /* config.template.json */; };
 		DCAEE9852E0976580036FA9F /* update_config.sh in Sources */ = {isa = PBXBuildFile; fileRef = DCF28ACF2DDDA64000777D10 /* update_config.sh */; };
 		DCF28ACD2DDDA5F000777D10 /* config.template.json in Sources */ = {isa = PBXBuildFile; fileRef = DCF28ACC2DDDA5EB00777D10 /* config.template.json */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC951AE52E0C2783008254B9 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "MyP2PBank/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		DCED2B752DDC36DA00B907B1 /* MyP2PBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyP2PBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCED2B822DDC36DB00B907B1 /* MyP2PBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyP2PBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCED2B8C2DDC36DB00B907B1 /* MyP2PBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyP2PBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,7 @@
 		DCED2B6C2DDC36DA00B907B1 = {
 			isa = PBXGroup;
 			children = (
+				DC951AE52E0C2783008254B9 /* Launch Screen.storyboard */,
 				DCF28ACF2DDDA64000777D10 /* update_config.sh */,
 				DCED2B772DDC36DA00B907B1 /* MyP2PBank */,
 				DCED2B852DDC36DB00B907B1 /* MyP2PBankTests */,
@@ -247,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC951AE62E0C2783008254B9 /* Launch Screen.storyboard in Resources */,
 				DCAEE9842E0976450036FA9F /* config.template.json in Resources */,
 				DCF28AD02DDDA64E00777D10 /* update_config.sh in Resources */,
 			);
@@ -431,16 +435,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W8S4HN228L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyP2PBank/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Finzy;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,16 +468,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W8S4HN228L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyP2PBank/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Finzy;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

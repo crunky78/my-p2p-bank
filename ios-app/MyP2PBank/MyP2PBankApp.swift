@@ -9,14 +9,14 @@ import SwiftUI
 
 @main
 struct MyP2PBankApp: App {
-    
-    @StateObject private var sessionManager = SessionManager()
-    
-    
+    @StateObject var sessionManager = SessionManager()
+
     var body: some Scene {
         WindowGroup {
-            LoginView()
-                .environmentObject(sessionManager) // 💡 앱 전체에 세션 공유
+            ContentView()
+                .environmentObject(sessionManager)
         }
     }
 }
+
+

@@ -1,7 +1,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var sessionManager: SessionManager
+
     var body: some View {
-        LoginView()
+        if sessionManager.isLoggedIn {
+            HomeView()
+        } else {
+            LoginView()
+        }
     }
 }

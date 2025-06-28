@@ -16,9 +16,13 @@ struct LoginView: View {
         
         NavigationStack {
             VStack(spacing: 20) {
-                Text("MyP2PBank 로그인")
-                    .font(.title)
-                    .bold()
+                
+                // 🔹 로고 이미지
+               Image("finzyLogo")
+                   .resizable()
+                   .scaledToFit()
+                   .frame(width: 150, height: 150)
+                   .padding(.top, 30)
 
                 TextField("아이디", text: $userId)
                     .textFieldStyle(RoundedBorderTextFieldStyle())

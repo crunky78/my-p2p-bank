@@ -1,13 +1,5 @@
 import UIKit
 
-// 대출 상태 Enum
-enum LoanStatus: String, Codable {
-    case requested = "REQUESTED"
-    case approved = "APPROVED"
-    case inProgress = "IN_PROGRESS"
-    case completed = "COMPLETED"
-    case overdue = "OVERDUE"
-}
 
 // Loan 데이터 모델
 struct Loan: Codable {

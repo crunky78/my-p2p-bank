@@ -34,6 +34,10 @@ struct LoanRequestListView: View {
                         if !request.note.isEmpty {
                             Text("메모: \(request.note)")
                         }
+                        
+                        Text("상태 : \(request.status.displayText)")
+                            .foregroundColor(.gray)
+                            .font(.subheadline)
                     }
                     .padding(.vertical, 4)
                 }
